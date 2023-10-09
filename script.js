@@ -55,7 +55,7 @@ function agregarAlCarrito(item) {
 
 
 
-
+/* TODO ESTO ES LO QUE IRIA DENTRO DEL CARRITO
 // Agregar evento input a los elementos de cantidad
 container.addEventListener("input", function (event) {
     if (event.target.classList.contains("quantity-input")) {
@@ -89,6 +89,7 @@ function updateSubtotal(inputElement) {
     const subtotalElement = inputElement.closest("tr").querySelector("td:last-child strong span");
     subtotalElement.textContent = subtotal;
   }
+*/
 
 document.addEventListener("DOMContentLoaded", function () {
   showData();
